@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232, 231, 231);
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif ;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid grey 0.5px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header ul li div {
+    background-color: rgb(118, 183, 207);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+header span, h4, img {
+    cursor: pointer;
+}
+
+main {
+    height: 78vh;
+    display: flex;
+}
+
+.leftpart {
+    padding: 16px;
+    width: 16%;
+    height: 100%;
+    border-right: solid grey 0.5px;
+}
+
+.leftpart div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+.leftpart div:hover {
+    background-color: rgb(238, 185, 185);
+    cursor: pointer;
+}
+
+.rightpart {
+    padding-top: 24px;
+    font-size: smaller;
+    width: 78%;
+}
+
+.mail-icons {
+    height: 18px;
+    cursor: pointer;
+}
+
+.classic-mail {
+    display: flex;
+    width: 100%;
+    padding: 6px 0px;
+    align-items: center;
+    border-bottom: solid grey 0.5px;
+}
+
+.classic-mail:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.name-mail {
+    display: flex;
+    width: 84%;
+}
+
+.rightpart div {
+    display: flex;
+    padding-left: 8px;
+    /* border: solid grey 0.5px; */
+}
+
+.namepart {
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.mailpart {
+    display: flex;
+    align-items: center;
+    width: 72%;
+}
+
+.name {
+    padding-left: 8px;
+    width: 98%;
+}
+
+.message {
+    color: gray;
+    margin-left: 6px;
+}
+
+.attachment-date {
+    margin-left: 20px;
+    width: 15%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.attachment-date2 {
+    margin-left: 20px;
+    display: flex;
+    justify-content: right;
+    width: 15%;
+}
+
+@media (max-width: 550px) {
+    .welcome {
+        display: none;
+    }
+    
+}
